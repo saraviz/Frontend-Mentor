@@ -1,0 +1,153 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+:root{
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    --Soft-violet: hsl(277, 64%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+    --font1: 'Inter', sans-serif;
+    --font2: 'Lexend Deca', sans-serif;
+    --font3: 'Inter', sans-serif;
+}
+body{
+    background-color:var(--Very-dark-blue);
+}
+div.text{
+    background-color:var(--Dark-desaturated-blue);
+    display: inline-block;
+    height: 460px;
+    width: 490px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+div.text>div#title{
+
+    padding-top: 45px;
+    width: 72%;
+    position: absolute;
+    left: 15%;  
+}
+
+div.text>div#title>h1{
+    color: white;
+    font-family: var(--font3);
+    font-weight: bolder;
+    font-size: 2.1em;
+    text-align: left;
+}
+div.text>div#title>h2{
+    padding-top: 15px;
+    color: white;
+    font-family: var(--font1);
+    font-size: 0.8em;
+    font-weight: lighter;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+div.text>div#numeros1{
+    display: inline-block;
+    color: white;
+    position: fixed;
+    width: 75px;
+    height: 50px; 
+    left: 15%;
+    top: 70%;
+    text-align: left;
+    font-family: var(--font3);
+    font-weight: bolder;
+    font-size: 1.3em;
+
+}
+div.text>div#numeros2{
+    display: inline-block;
+    color: white;
+    position: fixed;
+    width: 75px;
+    height: 50px; 
+    left: 43.5%;
+    top: 70%;
+    text-align: left;
+    font-family: var(--font3);
+    font-weight: bolder;
+    font-size: 1.3em;
+}div.text>div#numeros3{
+    display: inline-block;
+    color: white;
+    position: fixed;
+    width: 75px;
+    height: 50px; 
+    left: 72%;
+    top: 70%;
+    text-align: left;
+    font-family: var(--font3);
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+div.text>div#numeros1>p{
+    font-family: var(--font1);
+    color: white;
+    font-size: 0.5em;
+    font-weight: lighter;
+    position: fixed;
+    top: 74%;
+}
+div.text>div#numeros2>p{
+    font-family: var(--font1);
+    color:white;
+    font-size: 0.5em;
+    font-weight: lighter;
+    position: fixed;
+    top: 74%;
+}
+div.text>div#numeros3>p{
+    font-family: var(--font1);
+    color: white;
+    font-size: 0.5em;
+    font-weight: lighter;
+    position: fixed;
+    top: 74%;
+}
+
+
+
+div.img{
+    background-image: url("images/image-header-desktop.jpg");
+    background-color: var(--Soft-violet);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 460px;
+    width: 490px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+div.img2{
+    
+    background-color: hsla(277, 64%, 61%, 0.589);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 460px;
+    width: 490px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
